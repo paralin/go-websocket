@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coder/websocket"
-	"github.com/coder/websocket/internal/test/assert"
-	"github.com/coder/websocket/internal/util"
-	"github.com/coder/websocket/internal/xsync"
+	"github.com/aperturerobotics/go-websocket"
+	"github.com/aperturerobotics/go-websocket/internal/test/assert"
+	"github.com/aperturerobotics/go-websocket/internal/util"
+	"github.com/aperturerobotics/go-websocket/internal/xsync"
 )
 
 func TestBadDials(t *testing.T) {

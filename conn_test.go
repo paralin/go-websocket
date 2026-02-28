@@ -17,13 +17,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coder/websocket"
-	"github.com/coder/websocket/internal/errd"
-	"github.com/coder/websocket/internal/test/assert"
-	"github.com/coder/websocket/internal/test/wstest"
-	"github.com/coder/websocket/internal/test/xrand"
-	"github.com/coder/websocket/internal/xsync"
-	"github.com/coder/websocket/wsjson"
+	"github.com/aperturerobotics/go-websocket"
+	"github.com/aperturerobotics/go-websocket/internal/errd"
+	"github.com/aperturerobotics/go-websocket/internal/test/assert"
+	"github.com/aperturerobotics/go-websocket/internal/test/wstest"
+	"github.com/aperturerobotics/go-websocket/internal/test/xrand"
+	"github.com/aperturerobotics/go-websocket/internal/xsync"
+	"github.com/aperturerobotics/go-websocket/wsjson"
 )
 
 func TestConn(t *testing.T) {

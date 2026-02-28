@@ -13,8 +13,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coder/websocket/internal/errd"
-	"github.com/coder/websocket/internal/util"
+	"github.com/aperturerobotics/go-websocket/internal/errd"
+	"github.com/aperturerobotics/go-websocket/internal/util"
 )
 
 // Reader reads from the connection until there is a WebSocket

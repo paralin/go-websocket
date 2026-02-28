@@ -10,7 +10,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/coder/websocket/internal/errd"
+	"github.com/aperturerobotics/go-websocket/internal/errd"
 )
 
 // StatusCode represents a WebSocket status code.

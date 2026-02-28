@@ -1,4 +1,4 @@
-package websocket // import "github.com/coder/websocket"
+package websocket // import "github.com/aperturerobotics/go-websocket"
 
 import (
 	"bytes"
@@ -14,8 +14,8 @@ import (
 	"sync/atomic"
 	"syscall/js"
 
-	"github.com/coder/websocket/internal/bpool"
-	"github.com/coder/websocket/internal/wsjs"
+	"github.com/aperturerobotics/go-websocket/internal/bpool"
+	"github.com/aperturerobotics/go-websocket/internal/wsjs"
 )
 
 // opcode represents a WebSocket opcode.

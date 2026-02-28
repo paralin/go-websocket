@@ -17,7 +17,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/coder/websocket/internal/errd"
+	"github.com/aperturerobotics/go-websocket/internal/errd"
 )
 
 // AcceptOptions represents Accept's options.

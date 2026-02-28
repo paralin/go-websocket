@@ -7,9 +7,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/coder/websocket"
-	"github.com/coder/websocket/internal/test/xrand"
-	"github.com/coder/websocket/internal/xsync"
+	"github.com/aperturerobotics/go-websocket"
+	"github.com/aperturerobotics/go-websocket/internal/test/xrand"
+	"github.com/aperturerobotics/go-websocket/internal/xsync"
 )
 
 // EchoLoop echos every msg received from c until an error

@@ -1,3 +1,3 @@
-module github.com/coder/websocket
+module github.com/aperturerobotics/go-websocket
 
 go 1.25

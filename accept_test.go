@@ -12,8 +12,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/coder/websocket/internal/test/assert"
-	"github.com/coder/websocket/internal/test/xrand"
+	"github.com/aperturerobotics/go-websocket/internal/test/assert"
+	"github.com/aperturerobotics/go-websocket/internal/test/xrand"
 )
 
 func TestAccept(t *testing.T) {

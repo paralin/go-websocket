@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coder/websocket/internal/test/assert"
+	"github.com/aperturerobotics/go-websocket/internal/test/assert"
 )
 
 func TestHeader(t *testing.T) {

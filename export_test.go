@@ -5,7 +5,7 @@ package websocket
 import (
 	"net"
 
-	"github.com/coder/websocket/internal/util"
+	"github.com/aperturerobotics/go-websocket/internal/util"
 )
 
 func (c *Conn) RecordBytesWritten() *int {

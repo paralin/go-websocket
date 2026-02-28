@@ -1,15 +1,15 @@
 // Package wsjson provides helpers for reading and writing JSON messages.
-package wsjson // import "github.com/coder/websocket/wsjson"
+package wsjson // import "github.com/aperturerobotics/go-websocket/wsjson"
 
 import (
 	"context"
 	"encoding/json"
 	"fmt"
 
-	"github.com/coder/websocket"
-	"github.com/coder/websocket/internal/bpool"
-	"github.com/coder/websocket/internal/errd"
-	"github.com/coder/websocket/internal/util"
+	"github.com/aperturerobotics/go-websocket"
+	"github.com/aperturerobotics/go-websocket/internal/bpool"
+	"github.com/aperturerobotics/go-websocket/internal/errd"
+	"github.com/aperturerobotics/go-websocket/internal/util"
 )
 
 // Read reads a JSON message from c into v.
